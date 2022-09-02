@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <style>
+      .attribution {
+        width: 100%;
+        padding-top: 20px;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        width: 100%;
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="wrapper">
+          <div class="bar-Chart-Container">
+            <!-- Header -->
+            <div class="bar-Chart-Header">
+              <div class="bc-balance">
+                <p class="my-Balance">My Balance</p>
+                <p class="balance-Amount">$921.48</p>
+              </div>
+              <div class="bc-logo">
+                <img src="./images/logo.svg" alt="logo" width="55" />
+              </div>
+            </div>
+            <!-- Body -->
+            <div class="bar-Chart-Body">
+              <p class="barChart-Title">Spending - Last 7 days</p>
+              <div class="bars-Data-Container">
+                <div class="bars-Data">
+                  <div class="daily-Bar">
+                    <div class="bar-Data-Tooltip"></div>
+                    <div class="bar"></div>
+                    <p class="day"></p>
+                  </div>
+                </div>
+                <div class="bars-Data">
+                  <div class="daily-Bar">
+                    <div class="bar-Data-Tooltip"></div>
+                    <p class="bar"></p>
+                    <p class="day"></p>
+                  </div>
+                </div>
+
+                <div class="bars-Data">
+                  <div class="daily-Bar">
+                    <div class="bar-Data-Tooltip"></div>
+                    <div class="bar"></div>
+                    <p class="day"></p>
+                  </div>
+                </div>
+
+                <div class="bars-Data">
+                  <div class="daily-Bar">
+                    <div class="bar-Data-Tooltip"></div>
+                    <div class="bar"></div>
+                    <p class="day"></p>
+                  </div>
+                </div>
+
+                <div class="bars-Data">
+                  <div class="daily-Bar">
+                    <div class="bar-Data-Tooltip"></div>
+                    <div class="bar"></div>
+                    <p class="day"></p>
+                  </div>
+                </div>
+
+                <div class="bars-Data">
+                  <div class="daily-Bar">
+                    <div class="bar-Data-Tooltip"></div>
+                    <div class="bar"></div>
+                    <p class="day"></p>
+                  </div>
+                </div>
+
+                <div class="bars-Data">
+                  <div class="daily-Bar">
+                    <div class="bar-Data-Tooltip"></div>
+                    <div class="bar"></div>
+                    <p class="day"></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bar-Section-Seperator"></div>
+
+              <div class="bar-Statistics">
+                <div class="this-Month-Stats">
+                  <p class="month-total-title">Total this month</p>
+                  <p class="month-total-amount">$478.33</p>
+                </div>
+                <div class="bar-total-Stats">
+                  <p class="total-stats-Percentage">+2.4%</p>
+                  <p class="total-stats-title">from last month</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/alaa1945">Alaa</a>.
+      </div>
+      <script src="app.js"></script>
+    </main>
+  </body>
+</html>
